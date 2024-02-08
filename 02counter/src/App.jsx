@@ -5,7 +5,12 @@ function App(){
  
   // let counter = 15;
   const addValue = ()=>{
-    setCounter(counter+1)
+    // setCounter(counter+1)
+    // counter jump directely for 3 step by using below code same thing can't be done using above setcounter increment 
+    setCounter(prevCounter => prevCounter+1)
+    setCounter(prevCounter => prevCounter+1)
+    setCounter(prevCounter => prevCounter+1)
+
   }
   const removeValue = ()=>{
     setCounter(counter-1)
