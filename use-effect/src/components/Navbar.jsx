@@ -29,7 +29,7 @@ const Navbar = ({ color }) => {
     <div>
       I am navbar of {color} color hehe..
     </div>
-  )
+  ) 
 }
 
 export default Navbar
